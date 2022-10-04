@@ -1,29 +1,12 @@
-import Link from "next/link";
+import A from "../components/A";
+import MainContainer from "../components/MainContainer";
 
 const Index = () => {
     return (
-        <div>
-            <div>
-                <Link href="/users">
-                    <a>Пользователи</a>
-                </Link>
-            </div>
+        <MainContainer>
             <h1>Главная страница</h1>
-            <style jsx>
-                {`
-                    .navbar {
-                      background: orange;
-                      padding: 15px;
-                    }
-                    .link {
-                      text-decoration: none;
-                      color: white;
-                      font-size: 20px;
-                    }
-                `}
-            </style>
-        </div>
+        </MainContainer>
     )
 }
 
-export default Index;
+export default Index
