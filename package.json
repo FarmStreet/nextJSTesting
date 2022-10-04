@@ -1,0 +1,27 @@
+{
+  "name": "nextjstesting",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000n\u0000e\u0000x\u0000t\u0000J\u0000S\u0000T\u0000e\u0000s\u0000t\u0000i\u0000n\u0000g\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarmStreet/nextJSTesting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FarmStreet/nextJSTesting/issues"
+  },
+  "homepage": "https://github.com/FarmStreet/nextJSTesting#readme",
+  "dependencies": {
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
